@@ -1,0 +1,15 @@
+#Viewing Data
+data("mtcars")
+data("iris")
+
+head(mtcars)
+head(iris)
+
+str(mtcars)
+str(iris)
+
+#Histogram
+hist(mtcars$mpg,
+     main= "Distribution of Miles Per Gallon",
+     xlab="Miles Per Gallon (mpg)",
+     col="lightblue")
